@@ -1,0 +1,87 @@
+Wendy A. Dannels is a research faculty in the Center on Access Technology, a research and development department in the National Technical Institute for the Deaf (NTID) at Rochester Institute of Technology (RIT) located in Rochester, New York. Her goal is to generate collaborative partnerships that will assist lifelong deaf learners, particularly empowering them on an equal footing in terms of accessibility issues. Wendy is the PI for a NSF grant (award #1811509) with a focus on developing a XR platform that will allow deaf and hard-of-hearing participants to receive real-time signed and captioned instruction while still interacting with spontaneous and live exhibits at science centers and planetariums. She can be reached at w.dannels@rit.edu.
+
+ 
+
+An interactive and informed discussion will cover the present and future challenges of incorporating captioned and signed instruction into XR platforms to benefit deaf and hard-of-hearing people.
+
+ 
+
+Pointers for consideration are:
+
+ 
+
+GENERAL:
+
+·        laws/standards
+
+·        confidentiality
+
+·        security
+
+ 
+
+CAPTIONED XR:
+
+·        benefits
+
+·        formal vs. informal learning
+
+·        pre-recorded vs. real-time
+
+·        approaches: captionist/ASR/hybrid
+
+·        design recommendations
+
+·        transcript
+
+·        others
+
+ 
+
+SIGNED XR:
+
+·        benefits
+
+·        features of sign language
+
+·        formal vs. informal learning
+
+·        different types of communications (one-, two-,multi-way)
+
+·        pre-recorded vs. real-time
+
+·        approaches: who provide signed information
+
+·        design recommendations
+
+·        others
+
+ 
+
+Selected supporting resources:
+
+·        Captioning Key for Educational Media (2009/2010)
+
+http://access-ed.r2d2.uwm.edu/resources/captioning-key.pdf
+
+·        The Ultimate Guide to Closed Captioning
+
+https://www.3playmedia.com/resources/popular-topics/closed-captioning/
+
+·        Position Statement on American Sign Language
+
+https://www.nad.org/about-us/position-statements/position-statement-on-american-sign-language/
+
+·        WFD and IFHOH Joint Statement: Automatic Speech Recognition in Telephone Relay Services and in Captioning Services
+http://wfdeaf.org/news/resources/27-march-2019-wfd-ifhoh-joint-statement-automatic-speech-recognition-telephone-relay-services-captioning-services/
+
+·        WFD and WASLI Statement on Use of Signing Avatars
+
+https://docs.google.com/viewerng/viewer?url=https://wfdeaf.org/wp-content/uploads/2017/02/WFD-and-WASLI-Statement-on-Avatar-FINAL-14032018-Updated-14042018-1.pdf&hl=en_US
+
+·        WFD Position Paper on Accessibility: Sign Language Interpreting and translation and technological developments
+http://wfdeaf.org/news/resources/wfd-position-paper-accessibility-sign-language-interpreting-translation-technological-developments/
+
+·           October 2014: Working Document on Adoption & Adaptation of Technologies & Accessibility https://wfdeaf.org/news/resources/working-document-on-adoption-adaptation-of-technologies-accessibility/
+
+ 
