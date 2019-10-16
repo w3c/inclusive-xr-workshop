@@ -463,6 +463,10 @@ summary::-moz-list-bullet {
   list-style-type: none;
 }
 
+details > summary {
+  list-style: none;
+}
+
 li:not(.no-details) details summary .desc {
   cursor: pointer;
 }
