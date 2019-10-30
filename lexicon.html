@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lexicon for W3C Workshop on Inclusive Design for Immersive Web Standards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="noindex">
+    <meta name="twitter:site" content="@w3c">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:title" content="W3C Workshop on Inclusive Design for Immersive Web Standards, November 5-6 2019 in #Seattle 🇺🇸 ">
+    <meta property="og:description" content="The workshop seeks to identify opportunities from applying inclusive design to the development of XR standards for the Web">
+        <meta property="og:image" content="https://www.w3.org/comm/assets/graphics/incxr.png">
+    <style>
+        .todo {
+            background-color: yellow;
+        }
+        .sponsors img { display: inline-block; vertical-align: middle;}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div id="banner">
+            <div>
+                <p>
+                    <a href="https://www.w3.org/">
+                        <img alt="W3C" src="https://www.w3.org/Icons/w3c_home" height="48" width="72">
+                    </a>
+                </p>
+                <img src="https://www.w3.org/comm/assets/graphics/incxr.svg" alt="" />
+                <h1>
+                    <a href="./">Inclusive Design for Immersive Web standards</a>
+                </h1>
+                <h2>W3C Workshop</h2>
+                <p>5-6 November 2019; Seattle, WA, USA
+            </div>
+        </div>
+        <nav class="menu" id="menu">
+            <ul>
+                <li>
+                    <a href="./">Call for Participation</a>
+                </li>
+                <li>
+                  <a href="agenda.html">>Agenda</a>
+                </li>
+                <li>
+                  <a href="papers.html">Position statements</a>
+                </li>
+                <li>
+                  <a href="participants.html">Participants</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <aside class="box box-host" id="host">
+        <h2 class="footnote">
+            Host
+        </h2>
+        <p>W3C gratefully acknowledges PlutoVR for hosting this workshop.</p>
+        <p style="margin-top: 1.5em; margin-bottom: 1.5em;"><a href="https://www.plutovr.com/"><img src="images/pluto.png" alt="Pluto" height=100/></a><br><img src="images/maveron.jpg" alt="Maveron" height=100><br><a href="https://wemakereality.com/"><img src="images/we-make-reality.jpg" alt="We Make Reality"  height=100></a><br><a href="https://www.virtualworldsociety.org/" height=100><img src="images/VWS.png" alt="Virtual Wolrd Society" height=100></a><br><img src="images/seattle-immersive-tech.png" alt="Seattle Immersive Technology Association" height=100></p>
+    </aside>
+    <aside class="box" id="sponsors">
+        <h2 class="footnote">
+            Sponsors
+        </h2>
+        <section class="sponsors-section sponsors-section--platinum">
+            <!--        <h3 id="platinum-sidebar">
+                      Platinum Sponsors
+                    </h3>
+                    <p style="margin-top: 2.5em; margin-bottom: 2.5em;"><a href="https://www.facebook.com/FacebookGaming"><img src="media/facebook.png" alt="Facebook Gaming"></a></p>-->
+        </section>
+        <p><a href="sponsorship.html">Sponsorship package info</a></p>
+    </aside>
+    <main id="main" class="main">
+      <h2 id="lexicon">
+        Lexicon
+      </h2>
+      <p>Participants to the workshop come with a very diverse set of background and expertise in relationship with Inclusive Design and XR. The Program Committee has assembled the following lexicon to help participants prepare for the discussions at the workshop - we do not expect all participants to be familiar with all the terms and jargon, but hope this can be used as a reference before, during and after the workshop to facilicate communication.</p>
+      <p<strong>These definitions are informal, and should not be used or construed as formal W3C definitions</strong>.</p>
+      <dl>
+        <dt id=engine>3D engine</dt>
+        <dd>Software that provides high level <a href="#api">APIs</a> to simplify the development of 3D-rendered applications (e.g. games, XR experiences). Examples include <a href="#unity">Unity</a>, <a href="#unreal">Unreal Engine</a>, and specifically for the Web <a href="#babylon">BabylonJS</a> and <a href="#threejs">Three.js</a></dd>
+        <dt id=model>3D model</dt>
+        <dd>An interconnected set of surfaces and geometric shapes in 3D that is used to represent 3D objects or entities. Formats that can be used to package these include <a href="#gltf">glTF</a>, <a href="#fbx">FBX</a>, <a href="#usdz">USDZ</a>.</dd>
+        <dt id=scene>3D scene graph</dt>
+        <dd>A <a href="#declarative">declarative</a> approach to describing a 3D environments as an interconnected collection of 3D objects and entities</dd>
+        <dt id=aframe><a href="https://aframe.io/">aframe</a></dt>
+        <dd>An open-source <a href="#declarative">declarative</a> framework to develop VR experiences on the Web in <a href="#html">HTML</a></dd>
+        <dt id=ag><a href="https://www.w3.org/WAI/about/groups/agwg/">AG (Accessibility Guidelines) Working Group</a></dt>
+        <dd><a href="#wg">W3C Working Group</a> responsible for the standardization of accessibility guidelines, including <a href="#wcag">the Web Content Accessibility Guidelines</a>, the future <a href="#silver">Silver Accessibility Guidelines</a></dd>
+        <dt id=ambisonics>Ambisonics</dt>
+        <dd>A sounds format for <a href="#spatial">spatialized audio</a> that allows to describe audio sources in the 3 spatial dimensions</dd>
+        <dt id=aom>AOM (Accesibility Object Model)</dt>
+        <dd>A <a href="#jsapi">JavaScript API</a> under <a href="#incubation">incubation</a> that enables developer to expose information to assistive technologies in an <a href="#imperative">imperative</a> manner</dd>
+        <dt id=apa><a href="https://www.w3.org/WAI/APA/">APA (Accessible Platform Architectures) Working Group</a></dt>
+        <dd><a href="#wg">W3C Working Group</a> that  ensures W3C specifications provide support for accessibility to people with disabilities</dd>
+        <dt id=api>API</dt>
+        <dd>Application Programing Interface - a well-defined set of code instructions developers can use to trigger well-defined outcomes</dd>
+        <dt id=ar>AR (Augmented Reality)</dt>
+        <dd>Overlaying virtual artefacts on top of a real-world environment (e.g. through a <a href="#arheadset">headset</a> or in a "<a href="#magicwindow">magic window</a>" approach on a phone)</dd>
+        <dt id=arheadset>AR headset</dt>
+        <dd>A headset that allows to visualize AR artefacts via a seethrough screen in front of the user's eyes - e.g. <a href="#hololens">Hololens</a> or <a href="#magicleap">Magic Leap One</a></dd>
+        <dt id=arcore>ARCore</dt>
+        <dd>The <a href="#sdk">SDK</a> provided on Android to develop AR experiences</dd>
+        <dt id=arkit>ARKit</dt>
+        <dd>The <a href="#sdk">SDK</a> provided on iOS to develop AR experiences</dd>
+        <dt id=aria>ARIA (or WAI ARIA)</dt>
+        <dd>ARIA (Accessible Rich Internet Applications) is a suite of technologies that provides <a href="#declarative">declarative</a> <a href="#markup">markup</a> to help make Web content accessible via <a href="#at">assistive technologies</a></dd>
+        <dt id=at>Assistive Technologies (AT)</dt>
+        <dd>Artefacts that enhance learning, working, and daily living for persons with disabilities</dd>
+        <dt id=asl>ASL</dt>
+        <dd>American Sign Language</dd>
+        <dt id=atag><a href="https://www.w3.org/TR/ATAG20/">ATAG (Authoring Tools Accessibility Guidelines)</a></dt>
+        <dd>W3C guidelines for designing web content authoring tools that are both more accessible to authors with disabilities and designed to enable, support, and promote the production of more accessible web content by all authors.</dd>
+        <dt id=babylon>babylon.js</dt>
+        <dd>an open-source <a href="#engine">3D Engine</a> for the Web</dd>
+        <dt id=canvas>canvas element</dt>
+        <dd>An <a href="#html">HTML</a> element which gets combined with an <a href="#imperative">imperative</a> <a href="#jsapi">JavaScript API</a> to draw any type of graphical content. It is used in the <a href="#immersiveweb">Immersive Web</a> to draw 3D content via <a href="#webgl">WebGL</a> (and probably <a href="#webgpu">WebGPU</a> in the future). Work to make content drawn with this approach in 2D accessible involved providing <a href="#hittesting-cv">hit testing support</a>.</dd>
+        <dt id=cardboard>Cardboard | Google Cardboard</dt>
+        <dd>A cheap <a href="#mobilevr">mobile VR headset</a> where a user would put their phone to enable basic VR experiences</dd>
+        <dt id=cg>Community Group</dt>
+        <dt id=css>CSS (Cascading Style Sheets)</dt>
+        <dt id=daydream>Daydream | Google Daydream</dt>
+        <dd>A platform for Android phones to enable them as basis for <a href="#mobilevr">mobile VR headsets</a></dd>
+        <dt id=declarative>declarative (programming language)</dt>
+        <dd>An approach where the developer declares their intent with high level semantics (e.g. via a <a href="#markup">markup language</a>) and leaves it to the computer to represent that intent to the end-user - by opposition to <a href="#imperative">imperative</a></dd>
+        <dt id=dhh>DHH</dt>
+        <dd>Deaf and hard of hearing</dd>
+        <dt id=dom>DOM (Document Object Model)</dt>
+        <dd>A <a href="#jsapi">JavaScript API</a> that allows developers to modify dynamically the content of a Web page</dd>
+        <dt id=fbx>FBX</dt>
+        <dd>a proprietary <a href="#model">3D model</a> format</dd>
+        <dt id=fustrum>fustrum</dt>
+        <dd>The 3D space covered by the field of view in a headset</dd>
+        <dt id=gamepad><a href="https://w3c.github.io/gamepad/">Gamepad API</a<</dt>
+        <dd>A <a href="#jsapi">JavaScript API</a> that enables to use gamepads, and - via <a href="#webxr">WebXR</a> - XR controllers as well, in <a href="#webapp">Web applications</a></dd>
+        <dt id=gear>GearVR | Samsung GearVR</dt>
+        <dd>A <a href="#mobilevr">mobile VR headset</a> where a user would put their phone to enable basic VR experiences</dd>
+        <dt id=gltf>glTF</dt>
+        <dd>a standards <a href="#model">3D model</a> format, developed by the <a href="#khronos">Khronos Group</a></dd>
+        <dt id=haptics>haptics</dt>
+        <dd>interactions based on the sense of touch (e.g. touch screen, vibrations)</dd>
+        <dt id=hittesting-cv>Hit testing [canvas]</dt>
+        <dd>Accommodation for the <a href="#canvas">canvas element</a> to make <a href="#imperative">imperative</a> user interfaces built with it accessible by exposing them to assistive technologies</dd>
+        <dt id=hittesting-rw>Hit testing [real-world]</dt>
+        <dd>Ability to detect surfaces or objects in the real-world to enable positioning <a href="#ar">AR</a> artefacts in it</dd>
+        <dt id=hololens>Hololens | Microsoft Hololens</dt>
+        <dd>An <a href="#arheadset">AR headset</a> by Microsoft</dd>
+        <dt id=html>HTML</dt>
+        <dd>the <a href="#declarative">declarative</a> <a href="#markup">markup</a> language with which most pages are developed</dd>
+        <dt id=immersiveweb>Immersive Web</dt>
+        <dd>The Immersive Web is the project in W3C, carried by the <a href="#iwwg">Immersive Web Working Group</a> and <a href="#iwcg">Immersive Web Community Group</a>, to make Web browsers a platform to develop and distribute <a href="#ar">AR</a> & <a href="#vr">VR</a> experiences to any device using Web technologies. The lead component of that project is the <a href="#webxr">WebXR API</a>.</dd>
+        <dt id=iwcg>Immersive Web Community Group</dt>
+        <dd>A <a href="#cg">Community Group in W3C</a> that <a href="#incubation">incubates</a> technologies for future standardization to enable the <a href="#immersiveweb">Immersive Web vision</a></dd>
+        <dt id=iwwg><a href="https://www.w3.org/immersive-web/">Immersive Web Working Group</a></dt>
+        <dd><a href="#wg">W3C Working Group</a> that standardizes the technical components to enable the <a href="#immersiveweb">Immersive Web vision</a>, currently focused on <a href="#webxr">WebXR</a></dd>
+        <dt id=imperative>imperative (programming language)</dt>
+        <dd>An approach where the developer gives specific instructions (via <a href="#api">APIs</a>) to the computer in how the content is rendered and how user input is handled - by opposition to <a href="#declarative">declarative</a></dd>
+        <dt id=incubation>incubation [standards]</dt>
+        <dd>Informal process through which technologies can be built and experimented with in a fast iteration approach (typically in a <a href="#cg">Community Group</a>) before going through the formal standardization process (in W3C, in a <a href="#wg">Working Group</a>)</dd>
+        <dt id=id>Inclusive Design</dt>
+        <dd>designing for the needs of people with permanent, temporary, situational, or changing disabilities</dd>
+        <dt id=js>JavaScript</dt>
+        <dd>A programming language that can be used for <a href="#imperative">imperative</a> developments in Web browsers via the <a href="#jsapi">JavaScript APIs</a> they provide</dd>
+        <dt id=jsapi>JavaScript API</dt>
+        <dd>An <a href="#api">API</a> for use in browsers that enable developers to write <a href="#js">JavaScript</a> code to achieve certain effects. <a href="#dom">DOM</a>, <a href="#webgl">WebGL</a>, <a href="#webxr">WebXR</a>, <a href="#webgpu">WebGPU</a>, <a href="#aom">AOM</a> are examples of APIs that have been standardized or are being standardized to enable new capabilities in Web browsers.</dd>
+        <dt id=khronos>Khronos Group</dt>
+        <dd>A standards organization for 3D graphics, Virtual and Augmented Reality, Parallel Computing, Neural Networks, and Vision Processing. The Khronos Group standardized <a href="#webgl">WebGL</a>, <a href="#openxr">OpenXR</a>, <a href="#gltf">glTF</a> among other things.</dd>
+        <dt id=magicleap>Magic Leap One | Magic Leap</dt>
+        <dd>An <a href="#arheadset">AR headset</a> by Magic Leap</dd>
+        <dt id=magicwindow>magic window</dt>
+        <dd>Approach to render VR or AR content where a mobile phone screen is used as if it was a window on the virtual world or the augmented world - by opposition to <a href="#ivr">immersive VR</a></dd>
+        <dt id=markup>markup</dt>
+        <dd><a href="#declarative">Declarative</a> code that allows to structure, annotate and enrich content - <a href="#html">HTML</a> is a markup language that serves as the basis of most Web pages</dd>
+        <dt id=mr>Mixed Reality (MR)</dt>
+        <dd>Sometimes used to refer to <a href="#ar">AR</a> experiences that are more integrated in the real world; also the name of the XR platform in Windows</dd>
+        <dt id=mobilevr>mobile VR headset</dt>
+        <dd>Headset for <a href="#ivr">immersive VR</a> that can be used independently from a computer (e.g. <a href="#gear">GearVR</a>, <a href="#daydream">Daydream</a>, <a href="#cardboard">Cardboard</a>)</dd>
+        <dt id=native>native applications</dt>
+        <dd>Applications developed using <a href="#sdk">SDKs</a> specific to an OS or a platform - by opposition to <a href="#webapp">Web applications</a></dd>
+        <dt id=openxr><a href="https://www.khronos.org/openxr/">OpenXR</a></dt>
+        <dd>A standard cross-platform <a href="#api">API</a> for <a href="#native">native development</a> of VR & AR applications</dd>
+        <dt id=quest>Quest | Oculus Quest</dt>
+        <dd>a <a href="#mobilevr">mobile VR headset</a> by Oculus</dd>
+        <dt id=rec>Recommendation (W3C)</dt>
+        <dd>The name W3C gives to its finalized standards. The Process through which they are produced is known as the Recommendation track.</dd>
+        <dt id=rift>Rift | Oculus Rift</dt>
+        <dd>a <a href="#tetheredvr">tethered VR headset</a> by Oculus</dd>
+        <dt id=rqtf>RQTF (WAI Research Question Task Force)</dt>
+        <dd>A task force of the <a href="#apa">W3C APA Working Group</a> focused on addressing accessibility knowledge gaps and barriers in emerging and future web technologies</dd>
+        <dt id=sdk>SDK (Software Development Kit)</dt>
+        <dd>A set of tools and <a href="#api">APIs</a> that enable developers to build applications for a certain platform or product</dd>
+        <dt id=silver>Silver guidelines</dt>
+        <dd>The next generation of accessibility guidelines envisioned by the <a href="#ag">W3C Accessibility Guidelines Working Group</a> to replace <a href="#wcag">WCAG</a> and other guidelines</dd>
+        <dt id=spatial>Spatialized audio</dt>
+        <dd>Audio content that is rendered to be perceived as coming from different positions in the 3D space</dd>
+        <dt id=tag>tag [HTML]</dt>
+        <dd>A piece of <a href="#markup">markup</a> that developers use to convey a well-defined semantic</dd>
+        <dt id=tetheredvr>tethered VR headset</dt>
+        <dd>Headset for <a href="#ivr">immersive VR</a> that is used in combination with (and often plugged into) a computer (e.g. <a href="#rift">Oculus Rift</a>, <a href="#mr">Windows Mixed Reality headsets</a>, <a href="#vive">HTC Vive</a>)</dd>
+        <dt id=threejs>Three.js</dt>
+        <dd>an open-source <a href="#engine">3D Engine</a> for the Web</dd>
+        <dt id=uuag><a href="https://www.w3.org/WAI/standards-guidelines/uaag/">UAAG (User Agent Accessibility Guidelines)</a></dt>
+        <dd>Guidelines that explain how to make user agents ( accessible to people with disabilities. User agents include browsers, browser extensions, media players, readers and other applications that render web content</dd>
+        <dt id=unity>Unity</dt>
+        <dd>A commercial <a href="#engine">3D Engine</a> developed by Unity Technologies, available both in <a href="#native">native</a> and <a href="#webapp">Web</a> context</dd>
+        <dt id=unreal>Unreal Engine</dt>
+        <dd>A commercial <a href="#engine">3D Engine</a> developed by Epic Games, available both in <a href="#native">native</a> and <a href="#webapp">Web</a> contexts</dd>
+        <dt id=ua>user agent</dt>
+        <dd>Software that acts on behalf of the user when interacting with content or protocols; often used as a synonym to Web browser in the W3C context</dd>
+        <dt id=usdz>USDZ</dt>
+        <dd>a proprietary <a href="#model">3D model</a> format</dd>
+        <dt id=ttml>TTML (Timed Text Markup Language)</dt>
+        <dd>A <a href="#declarative">declarative</a> <a href="#markup">markup</a> format to describe timed text, such as captions or audio descriptions. The format is not currently natively interpreted by Web browsers. See also <a href="#webvtt">WebVTT</a>.</dd>
+        <dt id=vive>Vive | HTC Vive</dt>
+        <dd>a <a href="#tetheredvr">tethered VR headset</a> by HTC</dd>
+        <dt id=vr>VR (Virtual Reality)</dt>
+        <dd>Computer-generated environments in which the user can evolve in all dimensions of space; can be either through a <a href="#ivr">VR headset</a> or through a <a href="#magicwindow">magic window</a> approach</dd>
+        <dt id=ivr>VR headset</dt>
+        <dd>Headset that fills (most of) the user field of view and make them feel completely immersed in the virtual environment - by opposition to <a href="#magicwindow">magic window</a> mode of VR</dd>
+        <dt id=wai><a href="https://www.w3.org/WAI/">WAI</a></dt>
+        <dd>Web Accessibility Initiative, a W3C initiative that makes the Web accessible through the development of standards and support materials to help understand and implement accessibility.</dd>
+        <dt id=wcag><a href="https://www.w3.org/TR/WCAG21/">WCAG (Web Content Accessibility Guidelines)</a></dt>
+        <dd>Guidelines standardized in W3C to help make Web content more accessible. Currently at version 2.1, with plans for a version 2.2, and future plans for a more radical evolution known as <a href="#silver">Silver</a></dd>
+        <dt id=webapp>Web applications</dt>
+        <dd>Applications developed with Web technologies (<a href="#html">HTML</a>, <a href="#css">CSS</a>, <a href="#jsapi">JavaScript APIs</a>) that run in Web browsers - by opposition to <a href="#native">native applications</a></dd>
+        <dt id=wasm>Web Assembly</dt>
+        <dd>Technology developed in W3C available in recent Web browsers that enable to run code developed in other programming languages than <a href="#js">JavaScript</a>, with very high performance</dd>
+        <dt id=webaudio><a href="https://www.w3.org/TR/webaudio/">Web Audio API</a></dt>
+        <dd>A <a href="#jsapi">JavaScript API</a> developed in W3C that allows to render audio in Web browsers</dd>
+        <dt id=webgl>WebGL</dt>
+        <dd>A <a href="#jsapi">JavaScript API</a> developed in <a href="#khronos">Khronos</a> that enables graphical rendering of 3D content in Web browsers via the <a href="#canvas">canvas element</a>. <a href="#webgpu">WebGPU</a> may provide a more powerful alternative in the future.</dd>
+        <dt id=webgpu>WebGPU</dt>
+        <dd>A <a href="#jsapi">JavaScript API</a> developed in <a href="#incubation">incubation</a> in a <a href="#cg">Community Group in W3C</a>, similar in scope to <a href="#webgl">WebGL</a> (incl. enabling 3D graphics) but with more modern and Web-friendly characteristics</dd>
+        <dt id=webvr>WebVR</dt>
+        <dd>An experimental and now deprecated <a href="#jsapi">JavaScript API</a> that was available in browsers to render <a href="#vr">VR</a> experiences via Web browsers. Replaced by <a href="#webxr">WebXR</a></dd>
+        <dt id=webvtt>WebVTT</dt>
+        <dd>A <a href="#declarative">declarative</a> format (inspired from SRT) to describe timed text, such as captions or audio descriptions. Natively supported by recent Web browsers.</dd>
+        <dt id=webxr>WebXR</dt>
+        <dd>A <a href="#jsapi">JavaScript API</a> being standardized by the <a rhef="#iwwg">W3C Immersive Web Working Group</a> that provides access to AR & VR devices from Web browsers and the necessary hooks to render 3D content (e.g. via <a href="#webgl">WebGL</a>, <a href="#webaudio">Web Audio</a> and <a href="#gamepad">the gamepad API</a>). Replaces <a href="#webvr">WebVR</a> and constitutes the current main component of the <a href="#immersiveweb">Immersive Web project</a>.</dd>
+        <dt id=wg>Working Group</dt>
+        <dd>In W3C, a formally chartered group that follows the W3C Process and its <a href="#rec">Recommendation track</a> to develop standards for the Web.</dd>
+        <dt id=xr>XR (extended reality)</dt>
+        <dd>An umbrella term that encompasses <a href="#ar">Augmented Reality (AR)</a>, <a href="#mr">Mixed Reality (MR)</a> and <a href="#vr">Virtual Reality (VR)</a></dd>
+      </dl>
+    </main>
+    <footer class="footer" id="footer">
+        <p>
+            W3C is proud to be an open and inclusive organization, focused on
+            productive discussions and actions. Our <a href="https://www.w3.org/Consortium/cepc/">
+                Code of Ethics and Professional
+                Conduct
+            </a> ensures that all voices can be heard.
+        </p>
+        <p>
+            Questions? Contact Dominique Hazael-Massieux &lt;<a href="mailto:dom@w3.org">dom@w3.org</a>&gt;.
+        </p>
+        <p>
+            Suggestions for improving this workshop page, such as fixing typos or
+            adding specific topics, can be made by opening a <a href="https://github.com/w3c/inclusive-xr-workshop/">pull request on GitHub</a>, or by
+            emailing Dominique Hazael-Massieux &lt;<a href="mailto:dom@w3.org">dom@w3.org</a>&gt;.
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
