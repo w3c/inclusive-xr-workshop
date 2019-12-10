@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Accessibility: a brief but mostly true history</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body lang="en">
+		<div class="reveal">
+			<div class="slides">
+				<section>
+<h1>Accessibility</h1>
+<h2>a brief but mostly true history</h2>
+<h3>Matt May, Adobe Design</h3>
+<h3>5 November 2019</h3>
+
+				</section>
+<section>
+<h2>In the beginning...</h2>
+<ul>
+<li>1990: TimBL invents <abbr title="Hypertext Markup Language">HTML</abbr>/<abbr title="Hypertext Transfer Protocol">HTTP</abbr>/browser
+<li>1994: <abbr title="World Wide Web Consortium">W3C</abbr> founded
+<li>1995: Trace Center publishes guidelines
+<li>1997: Microsoft delivers <abbr title="Microsoft Active Accessibility">MSAA</abbr>
+<li>1997: W3C/<acronym title="Web Accessibility Initiative">WAI</acronym> founded
+</ul>
+
+</section>
+<section>
+<h2><a href="https://w3.org/TR/WCAG10"><img src="WCAG1.png" alt="Web Content Accessibility Guidelines 1.0 front page"></a></h2>
+</section>
+<section>
+<h2><acronym title="Web Content Accessibility Guidelines">WCAG</acronym> 1 in a nutshell</h2>
+<ul>
+<li>alt text
+<li>no relying on color alone
+<li>proper use of markup
+<li>clear language
+<li>graceful transformation / progressive enhancement
+<li>device independence
+<li>clear navigation / operation
+</ul>
+</section>
+<section>
+<h2>WCAG 1 limitations</h2>
+<ul>
+<li><strong>very</strong> HTML-centric
+<li>over 60 checkpoints
+<li>not very measurable
+<li>technology outpaced it
+<ul><li>first in multimedia, then in HTML itself</ul>
+</ul>
+</section>
+<section>
+<h2>The world in 1999</h2>
+<ul>
+<li>Reference <abbr title="personal computer">PC</a> display: 15” <abbr title="cathode ray tube">CRT</abbr>, 1280 * 1024 * 24 bit
+<li>HTML 4.01
+<li>Browser Wars
+<li>ECMAScript 2 (!)
+<li><abbr title="virtual reality">VR</abbr> == <abbr title="Virtual Reality Markup Language">VRML</abbr>
+</ul>
+</section>
+<section>
+<h2>Mobile devices in 1999</h2>
+<img src="Nokia.png" alt="The Nokia 3210 is a GSM cellular phone, announced by Nokia on 18 March 1999.">
+</section>
+<section>
+<h2><a href="https://w3.org/TR/WCAG20"><img src="WCAG2.png" alt="Web Content Accessibility Guidelines 2.0 front page"></a></h2>
+</section>
+<section>
+<h2>WCAG 2 vs. WCAG 1</h2>
+<ul>
+<li><s>very HTML-centric</s> pretty agnostic
+<li><s>over 60</s> 12 checkpoints
+<li><s>not very</s> pretty measurable
+<li>technology outpaced it (?)
+</ul>
+</section>
+<section>
+<h2>Making <acronym title="Perceivable Operable Understandable Robust">POUR</acronym> decisions</h2>
+</section>
+<section>
+<h2>Four principles of WCAG 2.0</h2>
+<ol>
+<li>Perceivable
+<li>Operable
+<li>Understandable
+<li>Robust
+</ol>
+</section>
+<section>
+<h2><a href="https://w3.org/TR/WCAG21"><img src="WCAG21.png" alt="Web Content Accessibility Guidelines 2.1 front page"></a></h2>
+</section>
+<section>
+<h2>Where we are strong</h2>
+<ul>
+<li>community(/ies)
+<li>structure 
+<li>accessible (assistive) technology
+</ul>
+</section>
+<section>
+<h2>Where we aren't</h2>
+<ul>
+<li>space and motion (e.g. VR/<abbr title="augmented reality">AR</abbr> cases)
+<li>vestibular disorders
+<li>environmental captioning
+<li>new input mechanisms
+</ul>
+</section>
+<section>
+<h2>Thank you</h2>
+</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
