@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>[DRAFT] Report from W3C Workshop on Inclusive Design for Immersive Web Standards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <meta name="twitter:site" content="@w3c">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:title" content="W3C Workshop on Inclusive Design for Immersive Web Standards, November 5-6 2019 in #Seattle 🇺🇸 ">
+    <meta property="og:description" content="The workshop seeks to identify opportunities from applying inclusive design to the development of XR standards for the Web">
+        <meta property="og:image" content="https://www.w3.org/comm/assets/graphics/incxr.png">
+    <style>
+        .todo {
+            background-color: yellow;
+        }
+        .sponsors img { display: inline-block; vertical-align: middle;}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div id="banner">
+            <div>
+                <p>
+                    <a href="https://www.w3.org/">
+                        <img alt="W3C" src="https://www.w3.org/Icons/w3c_home" height="48" width="72">
+                    </a>
+                </p>
+                <img src="https://www.w3.org/comm/assets/graphics/incxr.svg" alt="" />
+                <h1>
+                    <a href="./">Inclusive Design for Immersive Web standards</a>
+                </h1>
+                <h2>W3C Workshop</h2>
+                <p>5-6 November 2019; Seattle, WA, USA
+            </div>
+        </div>
+        <nav class="menu" id="menu">
+            <ul>
+                <li>
+                  <a class="active-tab">Report</a>
+                </li>
+                <li>
+                  <a href="agenda.html">Agenda</a>
+                </li>
+                          <li>
+                            <a href="papers.html">Position statements</a>
+                          </li>
+                <li>
+                  <a href="participants.html">Participants</a>
+                </li>
+                <li>
+                    <a href="cfp.html">Call for Participation</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <aside class="box" id="sponsors">
+        <h2 class="footnote">
+            Sponsors
+        </h2>
+        <section class="sponsors-section sponsors-section--gold">
+          <h3 id="gold-sidebar">
+            Gold Sponsor
+          </h3>
+                    <p><a href="https://www.google.com/"><img src="images/google.svg" alt="Google" width=300></a></p>
+        </section>
+        <section class="sponsors-section sponsors-section--silver">
+          <h3 id="silver-sidebar">
+            Silver Sponsor
+          </h3>
+                    <p><a href="https://www.twitch.tv/"><img src="images/twitch.svg" alt="Twitch" width=200></a></p>
+        </section>
+        <section class="sponsors-section sponsors-section--diversity">
+          <h3 id="diversity-sidebar">
+            Diversity Sponsor
+          </h3>
+                    <p><a href="https://medium.com/samsung-internet-dev"><img src="images/samsung.svg" alt="Samsung" width=150></a></p>
+        </section>
+    </aside>
+    <aside class="box box-host" id="host">
+        <h2 class="footnote">
+            Host
+        </h2>
+        <p>W3C gratefully acknowledges PlutoVR for hosting this workshop.</p>
+        <p style="margin-top: 1.5em; margin-bottom: 1.5em;"><a href="https://www.plutovr.com/"><img src="images/pluto.png" alt="Pluto" height=100/></a><br><img src="images/maveron.jpg" alt="Maveron" height=100><br><a href="https://wemakereality.com/"><img src="images/we-make-reality.jpg" alt="We Make Reality"  height=100></a><br><a href="https://www.virtualworldsociety.org/" height=100><img src="images/VWS.png" alt="Virtual Wolrd Society" height=100></a><br><img src="images/seattle-immersive-tech.png" alt="Seattle Immersive Technology Association" height=100></p>
+    </aside>
+    <main id="main" class="main">
+      <h2>
+        [DRAFT] Workshop Report
+      </h2>
+      <p><em>Status: this is a draft report for review by the Program Committee before publication.</em></p>
+      <h3>Table of Contents</h3>
+      <h3 id=exe>Executive Summary</h3>
+      <p>W3C held a two days workshop on bringing Inclusive Design to Immersive Web standdards in Seattle on November 5 and 6 2019, hosted by PlutoVR, Maveron, We Make Reality, Virtual World Society and the Seattle Immersive Technology Association. The workshop brought <a href="participants.html">over 50 participants</a> from a very diverse set of backgrounds: browser developers, XR (extended reality, the union of augmented and virtual reality) ecosystem providers, standardization experts, Web developers, accessibility experts, XR developers and producers, governmental agencies, XR users with disabilities.</p>
+      <p>Workshop participants learned from existing approaches that have been taken in making XR experiences (on and off the Web) accessible before looking at what lessons could be derived from these existing research and experiments in the context of the Immersive Web architecture.</p>
+      <p>These lessons were derived to four aspects of accessible XR experiences:</p>
+      <ul>
+        <li>For <strong>visual</strong> interactions, the need to standardize semantics for scene and models (e.g. for the glTF format) was identified as a low-hanging fruit, while browsers and 3D engines could provide support for accommocation for low-vision impairments (e.g. high contrast, magnification)</li>
+        <li>For <strong>motricity</strong> considerations, ensuring the WebXR input mechanism can be applied to accessible controllers and enable accessible re-mappings of default controllers would provide a first level of improvement, while making real-world movement detection accessible is likely to require more substantive standardization work (interaction semantics, users' capabilities and preferences, and development best practices)</li>
+        <li>For <strong>auditory</strong> aspects, workshop participants reviewed existing research in how to integrate and position accessible accommodations in 3D environments (e.g. sign language interpretation, captions). Discussions on captions are expected to continue in the <a href="https://www.w3.org/community/immersive-captions/">Immersive Captions Community Group</a>.</li>
+        <li>Participants also reviewed the landscape of <strong>Assistive Technologies</strong> to understand how current tools can provide support for XR and agreed that new tools and approaches (e.g. AI) would be needed to bring full XR support, including using Web and XR technologies themselves as the basis for building assistive technologies.</li>
+      </ul>
+      <p>The relevant work in W3C spans across at least 6 standardization Working Groups and 6 pre-standardization and incubation Community Groups, and also intersects at least 3 Khronos Working Groups - pointing toward the need for a <strong>strong coordination</strong> effort to ensure systematic and consistent progress for the Web platform.</p>
+      <h3 id=intro>Introduction</h3>
+      <p>W3C holds workshops to discuss a specific space from various perspectives and identify needs that could warrant standardization efforts at W3C or elsewhere, and assess support and priorities among relevant communities. The Workshop on Inclusive Design for Immersive Web Standards was held in Seattle on November 5 and 6 2019, hosted by PlutoVR, Maveron, We Make Reality, Virtual World Society and the Seattle Immersive Technology Association, and with the generous sponsorship of Google, Twitch and Samsung Internet.</p>
+      <p>Building on the <a href="https://www.w3.org/2016/06/vr-workshop/">W3C Workshop on Web and Virtual Reality (VR)</a> in 2016, and the <a href="https://www.w3.org/2017/09/webvr-authoring-workshop/">W3C Workshop on VR Authoring</a> in 2017, this W3C Workshop looked at  applying Inclusive Design to the development of Virtual and Augmented Reality (XR) standards for the Web - where Inclusive Design is meant as “designing for the needs of people with permanent, temporary, situational, or changing disabilities”.</p>
+      <p>The specific goals of the workshop were to:</p>
+      <ul>
+        <li>Share existing inclusive XR solutions to help  create new standards for inclusive XR on the web.</li>
+        <li>Identify accessibility gaps in existing web XR technologies, and consider solutions for closing those gaps.</li>
+        <li>Explore ways to use existing technologies and standards to create innovative solutions for inclusive XR on the web.</li>
+      </ul>
+      <p>The workshop brought <a href="participants.html">over 50 participants</a> from a very diverse set of backgrounds: browser developers, XR (extended reality, the union of augmented and virtual reality) ecosystem providers, standardization experts, Web developers, accessibility experts, XR developers and producers, governmental agencies, XR users with disabilities.</p>
+      <h3 id=context>Setting the context</h3>
+      <p>Given the diversity of profiles of the workshop participants, the workshop started with setting up a shared understanding of the challenges and opportunities around making the Immersive Web accessible to all. An <a href="lexicon.html">informal lexicon</a> had been shared ahead of the event to give all participants a chance to get familiar with the jargon from the various relevant fields.</p>
+      <p>Leonie Watson (Tetralogical), the workshop chair, reminded everyone in <a href="https://decks.tink.uk/2019/inclusivexr/index.html">her presentation</a> of the definition and goals of <em>inclusive design</em>: “designing for the needs of people with permanent, temporary, situational, or changing disabilities - all of us really”.</p>
+      <p>Matt May (Adobe) <a href="https://www.w3.org/2019/08/inclusive-xr-workshop/slides/mcmay/">summarized the work</a> conducted over the past 20+ years to make the Web accessible, in particular through the develop of the <a href="https://www.w3.org/WAI/https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines</a>.</p>
+      <p>Kip Gilbert (Mozilla) shared an <a href="https://www.w3.org/2019/08/inclusive-xr-workshop/slides/arch.pdf">overview of the architecture of the Immersive Web</a>, highlighting the possible opportunities to incorporate accessibility in.</p>
+      <p>Josh O'Connor (W3C) presented the <a href="https://www.w3.org/2019/08/inclusive-xr-workshop/slides/josh/Overview.html">work done</a> by the <a href="https://www.w3.org/WAI/APA/">Accessible Platform Architectures Working Group</a> on <a href="http://raw.githack.com/w3c/apa/XAUR/xaur/index.html">XR User Needs and Requirements</a> to help all participants understand how and why people with disabilities can benefit from an accessible immersive Web.</p>
+
+      <h3 id=topics>Topics</h3>
+      <h4 id=3d>Accessibility hooks for graphical 3D Environments</h4>
+      <p>To make the <strong>visual</strong> component of XR experiences, based on immersive 3D graphics, the need to associate stronger semantics with 3D environments and objects was brought as a clear line of improvement, which would apply both to immersive and non-immersive contexts.</.</p>
+          <p>While the semantics provided by ARIA can help in the context of 2D interfaces projected in 3D, it emerged that ARIA was unlikely to be a scalable approach to annotate full 3D environments.</p>
+      <p>Several models to annotate 3D scenes and models were presented and discussed:</p>
+      <ul>
+        <li>Zohar Gan (Accessible Realities) presented his work on <a href="https://drive.google.com/file/d/1-klprjnWcmx3yWZL_tSFswZkGVirNW3e/view?usp=sharing">enabling XR Accessibility with Semantic XR Data Model</a></li>
+        <li>Chris Joel (Google) shared the lessons learned from <a href="https://docs.google.com/presentation/d/1XBMLoy2qmtm5N4_AywTUn21vduoKH4dm9IcC9jyFzjY/edit?usp=sharing">making the Web-based 3D viewer component (<code>model-viewer</code>) accessible</a>, and related work in the Khronos Group</li>
+        <li>Liv Erikson (Mozilla) shed light on the <a href="https://docs.google.com/presentation/d/1HOdme0bKDm1z31uZb4ggH30ai2H2BOj5O9YtYrjW1pc/edit?usp=sharing">authoring aspects of using glTF</a> in an accessible and adaptive way<.</li>
+      </ul>
+      <p>Interest was expressed in bringing native <strong>accessible support in 3D formats</strong> such as Khronos glTF.</p>
+          <p>The opportunity for browsers and 3D engines to provide built-in support to <strong>accommodate vision impairments</strong> (e.g. high contrast rendering, magnification) was identified as an encouraging path to explore in <a href="https://www.w3.org/2019/08/inclusive-xr-workshop/slides/accessibleVR_w3c.pdf">Meredith Ringal Morris' presentation on making VR inclusive to people with low-vision</a>.</p>
+      <h4 id=motricity>Making Motricity Accessible in XR</h4>
+        <p>Considering the <strong>motricity</strong> aspects of XR experiences, which encompass both the use of input mechanisms (e.g. controllers) and the reliance on real-world movements detection, the workshop participants reviewed the existing approach to making XR experiences accessible, led by <a href="https://docs.google.com/presentation/d/1mQNq2dg-8IOmesAA2b-NXLkQqMREoCgRGHBl0-bAK_I/edit?usp=sharing">Roland Dubois's review of accessible XR controllers</a> and <a href="https://github.com/Jakersnorth/aframe-viewer-actions">John Akers's demo</a> of adapting a WebVR experience to binary-input controllers.</p>
+      <p>They identified opportunities to build-in <strong>support for accessible controllers and accessible mapping of default controllers</strong>.</p>
+      <p>They recognized that making real-world movement detection accessible is likely to require a combination of best practices (both for app and engines developers), standards semantics to represent motor interactions possibilities in an experience and some ways to represent which movements a given user would need accommodation for.</p>
+      <h4 id=audio>Auditory accessibility in 3D environments</h4>
+      <p>Wendy Dannels (Rochester Institute of Technology) gave an overview of the <a href="https://www.w3.org/2019/08/inclusive-xr-workshop/slides/dannels.pdf">opportunities and challenges for sign-language users in an XR environment</a>: XR provides for instance unique opportunities to make real-life settings more accessible by including a sign-language interpreter in the direct field of view of the user, but a number of technical and operational challenges remain to make that vision widely available.</p>
+      <p>Melina Möhlne (IRT) presented the findings from the ImAc project on how to incorporate <a href="http://media.w3.org/2019/11/Subtitling360-ImmersiveWeb_W3C_05-06.11.2019.pptx">captions in 360° media</a> based on a series of user testing sessions.</p>
+      <p>Chris Wilson (Google) gave an overview of how the Web Audio API can already be used in the context of WebXR to create <a href="http://bit.ly/ImmersiveAudio">spatialized immersive audio experiences</a>.</p>
+      <h4 id=at>Assistive Technologies for XR</h4>
+      <p>Led by a panel with Markku Hakkinen (Educational Testing Service), Meredith Ringel Morris (Microsoft), Leonie Watson (Tetralogical) and Jason White (Educational Testing Service), furthered by a <a href="breakout-at.txt">breakout on the topic</a>, the workshop participants explored how assistive technologies themselves need to evolve to work in immersive environments.</p>
+      <p>There was wide recognition that the current AT tools are likely to struggle with the additional requirements brought by XR, and that technologies used to feed them (e.g. ARIA) are likely to be too limited to provide a fully immersive accessible experiences.</p>
+      <p>The need for exposing a wider set of annotations, built not just from content authors, but also by other users and possibly by artificial intelligence, was identified as an area worth further investigation.</p>
+      <p>The value of personalization and semantics (e.g. describing possible interactions rather than specific movements) was discussed as a key enabler for either immersive assistive technologies or for immersive technologies being their own assistive tools.</p>
+      <h4 id=terminology>Terminology for XR</h4>
+      <p>In complement to the <a href="lexicon.html">informal lexicon</a>, one of the breakout sessions of the workshop focused on the <a href="breakout-terminology.txt">terminology used in XR</a> to help tease out how these terms may influence (in a good or in a bad way) how we approach solutions in this space. The relationships and differences between Virtual Reality, Augmented Reality, Mixed Reality, eXtended Reality, spatial computing, immersive environment and immersive experiences were discussed. The session participants also questionned where and how an experience starts to be immersive: with a simple digital overlay? with a big enough screen? with a headset? os is it mostly about the state of mind that gets induced?</p>
+
+      <h4 id=practices>Current practices in making XR accessible</h4>
+      <p>Thomas Logan and Roland Dubois shared some of the <a href="https://docs.google.com/presentation/d/1cUTHzCbve5l9jnM4ueCO1S7pshEq_W9g5qHdKSHhaJw/edit?usp=sharing">lessons they learned when making Web-based XR experiences accessible</a> using a variety of techniques: using ARIA annotations in declarative XR frameworks (e.g. <a href="https://aframe.io/">a-frame</a>), using the <a href="https://wicg.github.io/speech-api/">Web Speech API</a> to build an in-app screen reader and a voice-based command interpreter. Among the identified lessons:</p>
+      <ul>
+        <li>keeping track of semantics throughout the content production chain provides a big opportunity to make content accessible: for instance, 3D models composed from well-identified items (e.g. clothes) and animated using pre-defined animation sequences (e.g. dancing) could be more easily exposed with the proper semantics if that information is surfaced when rendered in an immersive environment;</li>
+        <li>adapting to each user's need would be facilitated by a shared language to describe these needs and import them to configure a given immersive experience: for instance, the user's desire to have captions set by default (rather than having to manually select them) should be something immersive experiences could use without having to ask the user;</li>
+        <li>the need for personalization extends not just to interaction preferences, but also in how a user may want to be represented in the experience - there again, the possibility of having an easily importable avatar would help making XR experiences more inclusive.</li>
+      </ul>
+      <p>In a dedicated <a href="breakout-xaur.html">breakout session</a>, a subset of the workshop participants then took an existing WebXR experience (<a href="https://aframe.io/examples/showcase/a-blast/">a-blast</a>) and reviewed how the guidance provided by the <a href="https://www.w3.org/WAI/APA/wiki/Xaur_draft#XR_Checkpoints_DRAFT">draft XAUR checkpoints</a> helped identify limitations in an existing app, and when they needed clarifications or changes to make that analysis clearer.</p>
+
+      <h3 id=next>Conclusions and Next Steps</h3>
+      <p>In <a href="https://www.w3.org/2019/08/inclusive-xr-workshop/slides/Inclusive_XR_Roadmap.pdf">reviewing the outcomes of the discussions</a>, the workshop participants identified several layers where W3C and other organizations could have impact, as summarized in the following table.</p>
+      <table>
+        <thead>
+          <tr><th>Layer</th><th>Responsibility</th><th>Impact mechanism</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope=row>Immersive Web Applications</th>
+            <td>App developers</td>
+            <td>Examples, Best Practices, Training</td>
+          </tr>
+          <tr>
+            <th scope=row>Immersive Web Engine/Framework/Libraries</th>
+            <td>Framework developers</td>
+            <td>Best Practices, Prototypes, Patches</td>
+          </tr>
+          <tr>
+            <th scope=row>Web browsers</th>
+            <td>Browser developers, Standards developers</td>
+            <td>Additional APIs and formats, standardized best practices</td>
+          </tr>
+          <tr>
+            <th scope=row>XR platform/SDK</th>
+            <td colspan=2>Not in scope for the workshop</td>
+          </tr>
+          <tr>
+            <th scope=row>Operating System</th>
+            <td colspan=2>Not in scope for the workshop</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Given the technological complexity of XR, a great variety of groups (in and outside of W3C) need to be involved in bringing inclusive design to the Immersive Web. The following groups were identified as key stakeholders:</p>
+      <dl>
+        <dt>the <a href="https://www.w3.org/immersive-web/">W3C Immersive Web Working Group</a></dt>
+        <dd>Responsible for standardizing the WebXR API and its associated modules (incl. gamepad), providing the core features to bring XR to the Web</dd>
+        <dt>the <a href="https://www.w3.org/community/immersive-web/">Immersive Web Community Group</a> (W3C)</dt>
+        <dd>Pre-standardization group where new features for future Immersive Web standards are incubated.</dd>
+        <dt>the <a href="https://www.w3.org/2011/audio/">W3C Audio Working Group</a></dt>
+        <dd>Responsible for standardizing the Web Audio API, including its spatialized audio capabilities.</dd>
+        <dt>the <a href="https://www.w3.org/community/immersive-captions/">Immersive Captions Community Group</a> (W3C)</dt>
+        <dd>Pre-standardization group to explore how to bring captions to 360 and immersive content.</dd>
+        <dt>the <a href="https://www.w3.org/AudioVideo/TT/">W3C Timed Text Working Group</a></dt>
+        <dd>Responsible for standardizing caption formats for the Web (TTML, WebVTT).</dd>
+        <dt>the <a href="https://www.w3.org/community/wicg/">Web Platform Incubator Community Group (WICG)</a> (W3C)</dt>
+        <dd>Pre-standardization group where a number of browser technologies are incubated; particularly relevant to the topic, the <a href="http://wicg.github.io/aom/">Accessible Object Model</a> provides an opportunity to interact in more ways  with assistive technologies, and the <a href="https://wicg.github.io/speech-api/">Web Speech API</a> bring voice synthesis and recognition capabilities to Web browsers.</dd>
+        <dt>the <a href="https://www.w3.org/WAI/ARIA/">W3C ARIA Working Group</a></dt>
+        <dd>Responsible for standardizing the ARIA suite of specifications</dd>
+        <dt>the <a href="https://www.w3.org/WAI/GL/">W3C Accessibility Guidelines Working Group</a></dt>
+        <dd>Responsible for standardizing guidelines to make the Web accessible, including the <a href="https://www.w3.org/WAI/https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines</a>.</dd>
+        <dt>the <a href="https://www.w3.org/WAI/APA/">W3C Accessible Platform Archigectures Working Group</a></dt>
+        <dd>Responsible for the ongoing work on <a href="https://raw.githack.com/w3c/apa/XAUR/xaur/index.html#education-use-cases">XR User Needs and Requirements</a>; also hosts the Research and Question Task Force and the Personalization Task Force where relevant work is happening.</dd>
+        <dt>the <a href="https://www.khronos.org/gltf/">Khronos glTF Working Group</a></dt>
+        <dd>glTF is a key interchange format for 3D scenes and models, which might usefully hosts annotations to make its content accessible.</dd>
+        <dt>the <a href="https://www.khronos.org/3dcommerce/">Khronos 3D Commerce Working Group</a></dt>
+        <dd>Responsible for streamlining 3D content creation in a commerce context, with a particular focus on metadata, a key element of accessible experiences.</dd>
+      </dl>
+      <p>Beyond these key groups, the work in the <a href="https://www.w3.org/community/gpu/">GPU on the Web Community Group<a> (W3C), <a href="https://www.w3.org/community/webmachinelearning/">Machine Learning for the Web Community Group (W3C) and the related <a href="https://www.w3.org/2020/01/machine-learning-workshop/">Web & Machine Learning W3C Workshop scheduled in March 2020</a> are likely to bring new challenges and opportunities to the field.</p>
+
+      <p>This wide set of groups and relevant works points to the need for a <strong>strong coordination program</strong> to ensure these different efforts develop into a consistent platform for an accessible Immersive Web.</p>
+      <p>In terms of short terms technical developments that can serve as enables to this vision:</p>
+      <ul>
+        <li>ensuring that the work on WebXR input controllers allows re-mapping to take into account less frequent or well-known controllers falls under the responsibility of the Immersive Web Working Group.</li>
+        <li>the Immersive Captions Community Group is developing an understanding of how captions needs to be presented and delivered in an immersive environment.</li>
+        <li>W3C and Khronos could collaborate on bringing accessibility support to glTF (e.g. based on the existing <a href="https://github.com/KhronosGroup/glTF/pull/1553">XMP extension</a>), bringing improved accessibility not only to immersive environments, but also to more contexts on- and off- the Web (e.g. for retail use cases as explored in the <a href="https://www.khronos.org/3dcommerce/">Khronos 3D Commerce Working Group</a>.</li>
+        <li>best practices in how to develop XR content to make it compatible with existing assistive technologies provide a useful bridge until better AT and stronger built-in accessible XR features become available - as paved by the work on <a href="https://raw.githack.com/w3c/apa/XAUR/xaur/index.html#education-use-cases">XR User Needs and Requirements</a>.</li>
+      </ul>
+      <p>Longer term work will require research and exploration in the field of metadata to describe 3D environments and their affordances, and a broad rethinking of how Assistive Technologies need to interpret content and experiences on their user's behalf.</p>
+    </main>
+    <footer class="footer" id="footer">
+        <p>
+            W3C is proud to be an open and inclusive organization, focused on
+            productive discussions and actions. Our <a href="https://www.w3.org/Consortium/cepc/">
+                Code of Ethics and Professional
+                Conduct
+            </a> ensures that all voices can be heard.
+        </p>
+        <p>
+            Questions? Contact Dominique Hazael-Massieux &lt;<a href="mailto:dom@w3.org">dom@w3.org</a>&gt;.
+        </p>
+        <p>
+            Suggestions for improving this workshop page, such as fixing typos or
+            adding specific topics, can be made by opening a <a href="https://github.com/w3c/inclusive-xr-workshop/">pull request on GitHub</a>, or by
+            emailing Dominique Hazael-Massieux &lt;<a href="mailto:dom@w3.org">dom@w3.org</a>&gt;.
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

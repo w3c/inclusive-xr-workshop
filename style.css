@@ -687,3 +687,9 @@ button {
 a.statement {
   text-decoration: none;
 }
+
+th[scope=row] { text-align: left;}
+
+table { border-collapse: collapse;}
+thead th { background-color: #005a9c; color: white; border-right-color: white;}
+td, th { border: thin gray solid;padding: 0.5em;}
