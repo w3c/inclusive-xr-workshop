@@ -1,0 +1,433 @@
+Terminology Breakout Session
+
+Attendees:
+
+Josh, Wendy, Charles, Regine, Forest, Indira, Chris, Judy, John, Jared
+
+Josh:
+Going to wing it.  I am Joshua O Connor: From Ireland. Let's have an open session around the terminology that we use and what it means. I guess to get the ball rolling, I don't like the term 'virtual reality' No need to force us down the road of using a poor abstraction. Virtual Environments as a replacement term.  The term 'Virtual Reality' is a buzz word. Reality may be different. We don't know.
+
+Charles:
+It has been around. It has had multiple interpretations.
+
+Josh:
+We would use use cases to describe user needs. But they may not be user needs. They may be system architecture. Or technical needs. We should use a term that is a user need. So we can talk about a specific user need. We may be talking about a use case. We need to have more specific terminology. When we are talking about virtual environments we're talking about spatial computing.
+
+Charles:
+We could have a place to put all of it. Form a glossary. If we are going to pick terms. We need to have it live somewhere. So we can all refer to it. Let's not talk about virtual reality. We talk about virtual environments. Or virtual, only when.
+
+Wendy:
+Have you thought about the terminology? I’m not sure myself  But It's my understanding Mixed Reality - is - has been invented by Microsoft. Is that technically their trademark word?
+
+
+Jared:
+Mixed Reality is also using a green screen to remove the background in VR recordings.
+Using 'XR' is the term that is being used to describe things best and by Microsoft most recently.
+
+
+Indira:
+Does environment cover the thing we're in? The story behind it.
+Does it capture the environment that you're in and the experience?
+
+Josh:
+Is virtual reality cover the term. Can we break away from that term? There is a problem of describing the digital world. It goes from audio to completely immersive. Let's tease that out. Immersive environments is a useful.
+
+Virtual also represents that something is fake.
+
+It has connotation like that.
+
+
+Regine
+I am a user experience design teacher. Professor. I have a class that is coming up, covering environmental design. Naming the class 'environmental design' You are in essence designing an environment.
+
+Josh:
+Immersive Environment is …
+
+
+Indira:
+You are getting a quite real experience.
+You're there but you're actually in that space.
+
+
+John:
+I'm John. From Pluto. We use spatial computing as a term. About when the physical world and the inputs into computers. When computers can interact with humans. That is similar to the way that we sense. Audio, viusal…We use the way that we use depth cameras on phones. Or kinect or mobile phones
+
+Josh:
+Could the term spatial computing be used in the web of things be used. That are sensor aware?
+
+John:
+In our definition, we would.
+
+Josh:
+We would too. Similar definition. Meat space.
+
+Indira:
+These may come together. When they become part of the everyday. As it is meshing together. Fully immersive vs augmented. It's a blur
+
+
+Josh:
+Some people say with a philosophical mind that you cannot make the distention that you are experiencing a subjective state of being. For the sake of technical discussion. It may be a blur.
+
+Indira:
+It's the shared understanding that we know what we mean. Getting that understanding. I still  think people do not understand virtual and augmented reality. There are sections that describe the user's needs. Different experiences.
+
+Josh:
+Maybe we can talk about purpose. If we know what a tool is meant to do , we can talk about terminology. Augmented overlays vs fully immersive.
+
+
+Charles:
+Intent or scope. At one level you're talking about the categorical description of the work. We also have all of the terminology. Such as the taxonomy of the objects that you are meant to describe. How far do we go?
+
+Josh:
+This is very loose. But you are talking about taxonomy.
+
+Charles:
+You could be describing the field that this takes place. You go from environment to objects to states. The high level is environments. The high level is above
+
+Indra:
+Where does storytelling come into the question?
+
+Charles:
+Going back to where we started.
+Any experience starts with the axis of time
+Story has the axis of time
+Is it necessary to describe in that vocabulary.
+
+Josh
+Yes in a way there are assumptions made about time. Time could be sped up or slowed down in a virtual environment. Could be reversed. Just a response.
+
+Indra:
+Environments can be described to be quite different.
+
+Josh:
+Regine?
+
+Regine:
+I think that it helps, to clarify what happens when. It will help us understand where to put things. When you think about these experiences where do they start. Where do they end? What are the disciplines. They have their own nomenclature. Looking it as a whole and breaking it into pieces. This is where we start, this is where we are working on things. This is the terms they are using. How do we break this down? Here is the terms that they are using all the time
+…
+
+Josh:
+They have their own baggage
+
+Forest:
+Forest from Pluto. Environment terminology, Here is an example. Imagine that this watch is not hardware. If this watch was not hardware, what is the environment of this watch?
+
+Imagine that this watch is entirely software.
+
+Josh:
+If this is a projection onto your body. Does it have objective properties?
+
+Wendy:
+This is Wendy
+Is Pokemon augmented reality? And then talking about. Like in your watch , on your phone.
+Seeing through on a head mounted display, Fully augmented, Virtual realm augmented. Digital overlay, And there are various reasons for that too.
+
+Josh:
+Yes is the answer for that.
+It is defined as augmented.
+
+Wendy:
+There is a thing. What do you do with that.
+There are pokemon things everywhere. Or watch things, everywhere.
+
+Josh:
+Why did they use augmented. From music? The major 5th Minor 4th. Why did that get traction..
+
+Charles:
+ You brought up each discipline brings it's own language. I would assert that the popular usage of that is incorrect. There is already usage of things - like 'user testing' People are not testing the user. User research vs user accessibility testing. The language we are brining from our disciplines is already flawed
+
+John:
+What is the cost to not having consistent language?
+
+Josh:
+My concern is that we aren't being clear about what we are talking about. Potentially there may be abstractions. Because a lack of shared understanding. This session could be useful
+
+Charles:
+We go from shared understanding to no understanding
+
+Indira
+We think about the environment. We lose aspects. We lose something, Instead of describing the emotion.
+
+Josh:
+It can be emotional. I come out in a zen state. There is a tree.  Jared Letner talks about this
+
+Indira:
+I talk to people with psychosis. The anxiety. Who is the language for? Its for the designers and developers.
+
+Josh:
+Do you want to tell people about your work
+
+Indira
+I have been developing experiences for people with psychosis. It was quite a different virtual experience for people. Keeping things quite real. Knowing what anxiety it could cause
+
+Charles:
+Inclusion, If we form this glossary. If we form this glossary we should have inclusion come in and weigh in on it
+
+Josh:
+This conversation is useful for what language we use. People in my experience don't like to think they bring their biases, I use these terms in a generic sense
+
+Indira:
+The user testing is an interesting one. We understand what user testing means. Does it matter if we know what it means? Between the different groups there is an understanding. A shared language so you don't make mistakes.
+
+Josh:
+That is where you would want to be If the term is inaccurate. Chris, this man is embedded. Immersive environment. The need for shared understanding. Inherent assumptions. The need for things to work better.
+
+Chris:
+It is an interesting observation. We struggle repeatedly. Chris Wilson, from Google. Co-chair for Immersive Web Working Group. I chair the meeting. I crack the whip. I am not the designer of the spec. Interested but not that expert. We struggle with the term. The mode between AR and VR. One mode shows you reality and one does not. Or if it is literally two modes.
+
+There is smart phone AR. Where you hold your phone out and see Stormtroopers. You are using the phone and it is not immersive. Or you are wearing a headset. Those are immersive.
+
+I would tend to agree with you. I wouldn't say that I dislike virtual reality as a term. As an aside, I don't personally like those experiences. Reality blinders is how I describe this.
+Reality blinders take me out of this moment. I won't put it on because I can't interact with anyone here. It says 'go away I am busy' sort of…
+
+Josh:
+Very interesting. Gives an interesting context to it. We were riffing on Augmented as a term for those type of overlays as well. To get you up to speed One of my things, we use at w3c 'use cases' Could mean user need or technical use. I prefer explicit use.
+
+If it is a user need vs technical use It is important we have a shared understanding I did some early work on shared understanding.
+
+Wendy:
+Question, Term XR, what are your thoughts on XR?
+
+Josh
+Happier to use, it is a further abstraction from Virtual Reality. I was happier to use that term.
+
+Wendy:
+The X is a conglomeration. XR is inclusion. AR/VR - Umbrella. If we say XR it solves your problem.
+
+Josh:
+I prefer 'immersive web'
+
+Wendy:
+The phone is not immersive.
+
+John:
+I agree with Wendy
+
+Charles:
+If you have a strap on headset You have removed visual tie to reality. You haven't removed senses.
+
+Josh:
+You have removed senses. For an augmented experience you are still part of this space
+
+Forest:
+I don't know if this is where you were going. Is IMAX immersive? There was a time. What about a slightly smaller screen? A Slightly smaller screen? When people first tried these things they called it immersive. We would not call it….
+
+Indira:
+A book is immersive. I would say when you go into that story.
+
+Charles:
+A state
+
+Josh:
+It has an impact on our consciousness. It has an effect on our senses. It effects our sense of perception. Just to tie it back, One of the things, VR will stay. Xr is likely to stay as an umbrella.
+
+I don't have an objection. My interest in this is an engineering challenge. To take all of my experience from accessibility to this domain. I am interested in this in the ethical and moral. I have an 8 1/2 year old boy. The idea that he gets… Not to have it impact his mind negatively. I am interested in some guardianship. These discussions are important.
+
+Indira:
+You can't say do no harm with a VR headset
+You have to realize that some people have photo-sensitive epilepsy. Even with motion sickness, they have been harmed.
+
+Chris:
+When I first got involved I was forewarned I would get motion sick. When debugging  - you tend to get in bad situations. I refuse to have a roller coaster demo installed. I am instantly…
+
+I will point out with XR terminology, we put a V on a capital A. It is literally V and A put together.
+
+Charles
+That only works in English.
+
+
+Regine:
+Because we need to think on a more global and grand scale. I live in the US. We tend to be focused on the west. The other day I was at a Google event for black UX designers.
+
+One of the speakers interviewed with Oculus - facebook. She had gone through trying on the headset. It did not fit. Because of her hair. It is not being made for people that are different than who are making it. Thinking about more than our western view. We make sure we are incorporating that We have a certain point of view. We are excluding a lot of other folks I want to make sure that it occurs that we get input from multiple people.
+
+
+Josh:
+No further.
+
+Jared:
+JARED
+
+So in talking about a11y, for me the topics are related to one application and are narrative or story based. There are different types of experiences - that relate to spatial computing. There is no distinction between interactions between, synthetic or real - and where there is no distinction this is the direction we are headed. The software powering these object can be physical or synthetic.
+
+In thinking of the opportunity to make things accessible, we are also talking about making everything accessible.
+
+Wendy:
+When you see Star Trek, What do you call it when you see beam me up scotty?
+
+I call that augmented reality
+
+Josh:
+I guess. Yeah. If only we had gene Roddenberry here. The reality thing jives with me and my own beliefs. My philosophical beliefs. Reality mediated by corporations creeps me out.
+
+Chris:
+Early, mid-stages.
+
+Josh:
+Where do you see it going?
+
+Chris:
+I think the limiting factor for VR is that it is reality blinders. There are use cases. User use cases.
+
+That is worthy. Worth the cost. A really immersive game. I may be able to cast to my screen so my buddies can see on the screen. Most of the time the cost is too high. I can use my AR as my headset to simulate big screens. I have my actual screen. I could get rid of physical computers.
+
+Problem is I go into an office I go into to see people.
+
+Josh:
+It is isolationist
+
+Chris:
+For augmented reality on the other hand. Not just notifications. Literally simulating additional things in the real world. I think this will grow to be more common.
+
+In 10 years you will see glasses like the ones I am wearing
+
+You won't know I have a screen.
+
+Josh
+Is this helpful for a task. Or is this for everyday. Have we lockedinto this overlayed reality.
+
+Chris:
+I think the answer is both. Because we walk around with a phone. It's the encyclopedia, it's the weather, it is everything. This is a critical aspect of augmentation in western society. It is very common. I think we will see that level of augmentation
+
+The first augmentation being a watch. You wear a watch. I wear a Fitbit.
+
+There was this weird time when everyone wore fitness trackers. We started wearing fitness trackers that feel uncomfortable. I think there are a lot of scenarios in which the important information is super useful. First demo was a Boeing engineer with a jet engine. It is a massive amount of work.
+I mentioned in my talk building ukulele. Anything with precise checklist and to ideally see and project things onto things. Where to cut. Can be done with AR. I don't need a physical measure tape if I have one in AR.
+
+
+This whole all of that. One of my co workers is into woodworking. We chat about woodworking. Fascinating levels of detail. I get fascinated by, I can order this order of matched wood. How did they make this thin wood. Can I do that? There is a series of steps and level of detail. Exposing the knowledge of the world to people. If I had gotten into building ukulele how would I do this? Would I go to library? Physically find people. Learn their knowledge. Instead I have 20 people that are listed online on YouTube and other stuff.
+If I don't understand I do a web search. More information
+
+Now imagine that list is projected onto the real world. Interacting with your world. Compelling.
+
+Charles:
+Pervasiveness and ubiquity. Serving more domains. Every discipline brings more language to this. We need to have that frame of reference to have that vocab to start and to bring domain language into it.
+
+Josh:
+You mentioned taxonomy. At a higher-level the requirements for immersive vs augmented. There is nuance. It has been really interesting
+
+Forest
+Are we up on time? We talked about creating a glossary.
+
+Josh:
+I am curious if we could vote on? A show of hands. I would prefer environments.
+
+Charles:
+There is a physical reality there is a physical
+
+Indira
+Environment. Without the experience, you won't be inclusive.
+
+Wendy:
+Looking back to my younger days. When I went to the library every one had an encyclopedia. Where are the encyclopedia? Will the library disappear? At university they have downsized. More computer labs.
+
+In the future, Somewhere in space: Somewhere in space, There is no library on the space ship. There is no information there. Scotty is there. Things are becoming more ephemeral.
+
+Jared:
+She is describing the holodeck!
+
+Chris:
+What is a book?
+
+Wendy:
+Something I read with my eyes about the three bears.
+
+Chris:
+I have a long history of e books. Bill Hill wrote a paper the magic of reading a book. It dove into a - book is a good thing to read. The folio size. It's rooted In physicality. It is good for humans to interact with. He was also in the nascent eBook reader at Microsoft. He was a skeptic. One day he ran into someone while reading on a smartphone. He was so immersed in a early phone he ran into someone.
+
+The question of what will happen to libraries. Do we need physical books. Are they just an art object side effect. iPad is not the same as a book. I say this.
+
+95% of what I read I read on my tablet or phone. For convenience. I read 5 pages earlier. I am done. I am not the type of person that will…
+
+The spaceship that has non zero latency. It can carry all human knowledge.
+
+Josh:
+To just push back. There is some research of holding the book. Helps with memory. I am with Wendy. As they become ephemeral. Memory is…
+
+Chris
+We have not figured out yet. Physical book can reformat into different books but is still a book. Says it's Robinson Crusoe,
+
+Wendy:
+What continues. The book has more information. We are taking that ebook and taking it out. I can see that information in a virtual way. Or that thing being projected. We need to make sure that information is still there.
+
+Josh:
+It's a question of longevity. We assume that data will live forever in the cloud. It may not. The library in Alexandria burned down.
+
+I like the idea of going back to the glossary. An initial list and some sort of vote to get a list out. Some recommendations.  We could say experience. We could say environemtn. We could say earlier a more inclusive vote of what it could be. Let's say glossary and vote. I think it would be a good place to start. Then we could go and find what those things are. Based on those new terms.
+
+Let's throw out some terms:
+Immersive Environment
+Immersive Experience
+Experience is quite good as a term. It is an ephemeral term. It is only in the person who is experiencing it. There is no forward or back.
+Would that be better than Virtual Reality?
+Immersive Experience.
+
+Chris:
+I don't think we can replace Virtual Reality with Immersive Experience. The goal of VR is to replace what is real with what feels real. We can do this sometimes.
+
+I am actually in a different place. Pinned all the way to the right. You aren't going to replace it. Immersive reality.
+
+Judy:
+Sorry to start late. Listening to different sessions.
+
+Thinking of the goals. Thinking that a small group of people here are not going to change the terminology. What are the elements that allow us to build the most accessible future. There may be some terms that may move those things forward.
+
+Are there things that are able to be worked on regardless of what it is called.
+
+Charles
+The intent behind the conversation. Is that we use a common language.
+
+There is a need for us to describe both virtual and augmented reality
+
+Also simultaneous usage of the use-cases. If we use things like immersive or augmented computing. Trying to do our best to do what it is, There is a means to make this accessible
+
+Before it becomes mainstream I don 't know how far we are going to go with the glossary.
+
+Josh:
+What we are doing is based on intent. What is the intent of the user experience? That could be goal oriented dips to do particular things. I don't know if it comes from the 60s or drug culture. Is that the goal.
+
+Chris:
+Someone said something when I was sitting down about multiple things.
+
+Josh:
+That was Jared.
+
+Chris:
+Multiple applications at the same time.
+We aren't going to dive into this. Looks like clippy.
+
+Looks over my shoulder. That is part of my reality. However I am rendering that app. And if I am doing my tax return virtually. Is that an experience or part of an experience? Is it an actor? Ideally, your reality takes into account multiple things either virtually or real.
+
+Forest:
+Playing off that. Thinking about. Rather than trying to get shared language of the specific elements. We've said environments. On the web we have a page. Skeuomorphic. Is it an environment? We could make some. Space. Volume, space, these are the types of things, we could make  progress…
+
+Where is the line between an environment between the cup.
+My example of an entirely software watch. Is it an immersive watch. It is weird. Is it an accessory?
+
+An instrument? there are names for these things.
+
+The terminology breaks down. When you go to describe these things. The sensory things.
+
+
+Indira:
+I think why it is important. As we are evolving, it creates gaps. It worries me not thinking of the experience, not the environment.
+
+
+Josh:
+Big takeaway.
+
+Environment vs Experience
+
+Wendy:
+Could I also add an interpreter. I am doing it now. They are helping me learn. This is helping me learn. Maybe this is off topic. But we don't have enough people that feel uncomfortable. There isn't a critical mass that The vocabulary needs to be looked at. This is a lifelong process of education. Is it VR Or AR. They need an explanation.
+
+
+Josh:
+Super interesting. Not a solid deliverable. Learned a lot.
+
+Thank you for sharing.
+
+
+
+
+

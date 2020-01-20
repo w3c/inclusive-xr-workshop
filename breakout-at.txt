@@ -1,0 +1,162 @@
+Mark: Where do we want to take this session?
+
+Ed: Wanted to touch on how we can do interactivity of content.
+
+Jason: There is a Web Annotations specification that will let you annotate existing material externally.
+
+Léonie: I don't know the status of the Web Annotations specification.
+
+Mark: Are we thinking along the lines of an image database with user supplied descriptions that are annotated and corrected over time?
+
+Ed: Potentially. Things like AR too - things like spaces that could be commented on by other people, or by AI for example.
+
+
+Mark: How could you alert a non-sighted user of the existence of those comments/annotations? Are there guidelines?
+
+Ed: There is also the matter of provinance. Who is the source of the comment - trusted friends, strangers, other?
+
+Jason: What would the metadata be attached to? Would it be vector based description of the scene with the metadata attached?
+
+Léonie: Would it be attached to an object in the XR? If it was grafiti on a wall it would be attached to the wall object.
+
+Kip: You might be describing something that doesn't have a shape or location - environmental factors for example. That could use annotation.
+
+Mark: We need to capture the physical properties of the space, then there will be anciliary information perhaps provided by AI or by humans. A layered approach.
+
+Kip: There might also be tangential things - like the shadow of Peter Pan, or a reflection in a pond.
+
+Mark: Or creaking of a floorboard.
+
+Chitai: We can think of syntax and semantics. Where do the descriptions or annotations come from?
+
+Léonie: Are annotations and descriptions the same thing?
+
+Chitai: Not sure. An alt text describes a single thing.
+
+Kip: But alt text doesn't have to be that. The alt text for the same image can be different depending on the context of the image.
+
+Mark: An alt text isn't always sufficient. Sometimes we have to provide extended descriptions. But I'm thinking about physical objects in XR. We have subjective descriptions, let's say annotations for now, and the annotations need to indicate the shape, mass, and other core properties of the object.
+Jason: We need to be able to identify things geometrially for some of those purposes.
+
+Mark: How would it work for a pond full of water that is full of amoebas?
+
+Jason: You'd need to do things like register the co-ordinates of the amoebas in the water.
+
+Mark: What work has Microsoft Research done in this area?
+
+Ed: Not much. Truth is we don't really know how to do this.
+
+Jason: Does this feel like the right question to be asking?
+
+Ed: It's an important question, but whether this is the right direction, I don't know? Sometimes research means identifying the dead-ends as well as the right paths.
+
+Jason: If there isn't a way to identify what a thing is, what it's purpose is, what actions can be carried out on it.
+
+Sarah: What is going to be consuming this information? There isn't a screen reader for Hololens yet. Should there be?
+
+Mark: It maybe doesn't have to be an AT, it could be part of the system.
+
+Sarah: Could there be an AT?
+
+Mark: Good question. Has the time of the AT come to an end?
+
+Xian: Are you asking if AT is dead?
+
+Mark: AT is dead, long live AT!
+
+Xian: That's a controversial statement that I don't agree with.
+
+Mark: The question is should the present AT model persist into the XR world?
+
+Kip: The aspiration is to have something that's part of the XR.
+
+
+Mark: So then the question is how do we take the metadata and translate it into different modalities? One thing I like in ARIA is aria-hidden - the concept of hiding things is sometimes useful.
+
+Jason: Magnification could be easier if the magnifier knew something about the object being magnified.
+
+
+Mark: A screen reader struggles to parse a complex web document. That increases in complexity with XR. Relevance, importance of objects will be important.
+
+Kip: Will we need to depend on some form of machine intelligence?
+
+Mark: Based on what I've seen with images, sometimes yes, sometimes no.
+
+Kip: I'm loathe to depend on authors - the space is too huge.
+
+
+Jason: It's also task sensitive.
+
+Kip: Would like to touch on topics beyond no/low vision.
+
+Mark: Yes.
+
+Kip: Mobility is an interesting area.
+
+
+Xian: I couldn't play most games until the Wii came out. I get frustrated with people focusing on games for blind/low vision people and not enough on games for mobility impaired people.
+
+Jason: The W3C has looked at input events and has tried to abstract them into actions - like dismiss, activate etc.
+
+Mark: You're talking about device independence?
+
+Léonie: No, Indie UI I think.
+
+Jason: Yes.
+
+Mark: Could we look and see whether Indie UI should be resurrected?
+
+Chitai: One of the eissues in XR is the hardware. It's not designed for people with disabilities.
+
+
+Léonie: Instead of look at Indie UI, we could start by drawing up a list of actions relevant to XR?
+Mark: Or do we want to define a model to describe those actions?
+
+Martez: In terms of input and going from 2d to 3d, we still don't have good enough models. Take a switch based input for example, traversing a website is one thing but what does that look like in XR? Also what do devices want to afford users to be able to do?
+
+Kip: On the devices themselves the software is changing quickly. It's a wild west at the moment. That means it's hard to define interaction models. But Léonie mentioned navigation - jumping from location to location to avoid virtual sickness for example. In the Immersive Web WG we're that means an event fires that has an origin and a destination vector, and there are flags that hint how to render that and they're updated during the gesture. Like a select start (holding a controller button down) and select end (letting the controller button go again). Could we tap into those kinds of thing.
+
+Jason: One area we haven't discussed is the treatment of individual needs and preferences. Does someone want captions or sign language, does someone else want a particular level of contrast and text sixe etc.
+
+Mark: What are the features in the XR, and what features would be in the "AT"?
+
+Kip: If using Web Audio's panning mode, there is some notion of the direction of sound that the browser is aware of. There is also software for competitive gamers that does something like it.
+
+Jason: Let's take captions - we'd need preferences regarding placement and other characteristics, plus the ability to adjust them. It isn't clear what design decisions we need to build into the system?
+
+Xian: In terms of being customisable?
+
+Jason: Yes. It either has to be external to the XR or available as part of any frameworks or component libraries being used by the authors.
+
+Mark: Using things like sip/puff devices, is there any way to have predictive behaviour?
+
+Kip: I like that idea. That's worth taking back to the Immersive Web WG. That might be an incentive for authors because it has wider reach.
+
+Jason: Predictive text offers a narrowing set of choices. I wonder if predictive actions could be the same?
+
+Kip: You would want a way to indicate that a thing or collection of things could be interacted with.
+
+Mark: That can help with navigational movement within the space.
+
+Chitai: Is there a way you can examine a scene? Scan left to right, front to back for example?
+
+
+Kip: Good question. Best answer now is that it's down to the author.
+
+Mark: Is this another place where things like eye-tracking data could be leveraged?
+
+Kip: Would it be ok for me to capture this conversation as things to ask the Immersive Web WG?
+
+Chitai: Also information like is this AI driven information, author provided information, other?
+
+Mark: This is back to the metadata.
+
+Léonie: We talk about authors finding it difficult to provide accessible metadata, but the metadata model we end up with (whatever it may be) isn't an accessibility thing really. It's a model for doing things like producing voice UI to XR - things that are both mainstream and more interesting.
+
+Mark: So to summarise...
+
+* Metadata is important; the provinance of the data; whether the data is authored or synthetic; that the model is a mainstream thing.
+
+
+* We should look at Indie UI to see if there is something useful there.
+* Mapping 2d devices to 3d environments; predictive scanning.
